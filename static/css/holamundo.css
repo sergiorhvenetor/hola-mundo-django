@@ -1,0 +1,51 @@
+/* Estilo para el encabezado */
+h1 {
+    color: blue;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+/* Estilo para el párrafo */
+p {
+    color: rgb(0, 255, 0);
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+    text-align: justify;
+    margin: 20px auto;
+    width: 80%;
+}
+/* Fondo principal con color y diseño de marco */
+body {
+    background-color: #f8f9fa; /* Color de fondo claro */
+    margin: 0;
+    padding: 50px;
+    font-family: Arial, sans-serif;
+    border: 57px solid #5c7a95; /* Marco */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5); /* Sombra */
+}
+
+/* Estilo para cualquier texto dentro del marco */
+h1, p {
+    text-align: center;
+    color: #0080ff; /* Color del texto */
+}
+body {
+    background-color: #e8f5e9; /* Color de fondo suave */
+    background-image: radial-gradient(circle at 20px 20px, #3654b1 10%, transparent 10%),
+                      radial-gradient(circle at 40px 40px, #367faa 10%, transparent 10%);
+    background-size: 100px 100px;
+    background-repeat: repeat;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Opcional: Agregar estilo para el contenido de la página */
+h1, p {
+    text-align: center;
+    color: #326d7e; /* Texto en un tono verde oscuro */
+    margin: 20px;
+}
